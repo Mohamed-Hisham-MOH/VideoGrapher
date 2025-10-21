@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+          <figure class="avatar-box">
+              <img src="./assets/profile/1080-بيكسل.jpg" alt="Richard hanrick" width="80" style="border-radius:15px">
+          </figure>
+
+        <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Mohamed Hisham</h1>
+
+            <p class="title">Videographer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+              <div class="icon-box">
+                  <ion-icon name="logo-youtube"></ion-icon>
+              </div>
+
+            <div class="contact-info">
+                <p class="contact-title">YouTube</p>
+
+                <a href="https://youtube.com/@mohamedhisham_16" class="contact-link" target="_blank">Mohamed Hisham </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+                <p class="contact-title">WhatsApp</p>
+
+              <a href="https://wa.me/201028867967" class="contact-link" target="_blank">01028867967</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 1, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Cairo / Egypt</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/mohamedhisham11" class="social-link" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.tiktok.com/@mo_grapher?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/mohamedhisham_16?utm_source=ig_web_button_share_sheet&igsh=d2ExbWpweGNxNmc=" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+        <!--
+      - #NAVBAR
+    -->
+
+        <nav class="navbar">
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>My Work</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Services</button>
+                </li>
+
+              
+
+            </ul>
+
+        </nav>
+
+
+
+
+
+        <!--
+      - #ABOUT
+    -->
+
+        <article class="about  active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>
+                    Hi I’m Mohamed, a profissional Reel Creator, Videographer and Video Editor dedicated to bringing stories to life through compelling visual content. With a keen eye for detail and a love for creative storytelling, I craft videos that engage, inspire, and leave a lasting impact.
+
+                    From conceptualization to final edit, I specialize in producing content that resonates with audiences and elevates brands.<br /> My goal is simple: transform ideas into visuals that speak louder than words.
+                </p>
+
+
+            </section>
+
+
+            <!--
+          - service
+        -->
+
+            <section class="service">
+
+                <h3 class="h3 service-title">What i'm doing</h3>
+
+                <ul class="service-list">
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Reel Creation</h4>
+
+                            <p class="service-item-text">
+                                Crafting engaging short-form videos that capture attention and tell impactful stories.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Videography</h4>
+
+                            <p class="service-item-text">
+                                Professional video shooting for events, campaigns, and creative projects.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="icon-box2">
+                            <ion-icon name="videocam-outline"></ion-icon>
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Video Editing</h4>
+
+                            <p class="service-item-text">
+                                High-quality editing to bring your footage to life with seamless storytelling.
+
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="icon-box2">
+                            <ion-icon name="create-outline"></ion-icon>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Content Creation</h4>
+
+                            <p class="service-item-text">
+                                Developing creative concepts and producing content that resonates with audiences.
+
+                            </p>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <!--
+          - testimonials
+        -->
+            <!--
+          - testimonials modal
+        -->
+
+            <div class="modal-container" data-modal-container>
+
+                <div class="overlay" data-overlay></div>
+
+                <section class="testimonials-modal">
+
+                    <button class="modal-close-btn" data-modal-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                    <div class="modal-img-wrapper">
+                        <figure class="modal-avatar-box">
+                            <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                        </figure>
+
+                        <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                    </div>
+
+                    <div class="modal-content">
+
+                        <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+
+                        <div data-modal-text>
+                            <p>
+                                Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                                lot of experience
+                                and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                                consectetur adipiscing
+                                elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+            <!--
+          - clients
+        -->
+
+            <section class="clients">
+
+                <h3 class="h3 clients-title">Clients</h3>
+
+                <ul class="clients-list has-scrollbar">
+
+
+                    <li class="clients-item">
+                        <a href="https://www.youtube.com/@bassemmagdy0" target="_blank" class="tooltip" data-tooltip="Bassem Magdy - Media Buyer">
+                            <img src="./assets/clients/channels4_profile.jpg" alt="client logo">
+                        </a>
+                    </li>
+
+                    <li class="clients-item">
+                        <a href="https://www.instagram.com/mshari.9797?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                           target="_blank"
+                           class="tooltip" data-tooltip="مشاري العتيبي">
+                            <img src="./assets/clients/524967121_18052127777611151_1976826598393144476_n.jpg" alt="client logo">
+                        </a>
+                    </li>
+
+                    <li class="clients-item">
+                        <a href="https://www.instagram.com/amr.mossad.visual?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                           target="_blank" class="tooltip" data-tooltip="Amr Mossad - Visual">
+                            <img src="./assets/clients/504327729_17869904265390762_5553041729622836180_n.jpg" alt="client logo">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+
+
+
+
+        <!--
+      - #RESUME
+    -->
+
+        <article class="resume" data-page="resume">
+
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
+
+            <!-- Education Section -->
+            <!-- Experience Section -->
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Experience</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Video Editor & Motion Designer</h4>
+                        <span>2019  — Present</span>
+                        <p class="timeline-text">
+                            Creating engaging video content, editing footage, and producing visual effects using Adobe Premiere Pro and After Effects for social media and marketing projects.
+                        </p>
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Front-End Developer (Freelance)</h4>
+                        <span>
+                            2017 - 2018
+                        </span>
+                        <p class="timeline-text">
+                            Built responsive and user-friendly websites using HTML, CSS, and JavaScript. Focused on smooth design integration and clean, efficient code.
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Graphic Designer</h4>
+                        <span>2015 - 2017</span>
+                        <p class="timeline-text">
+                            Designed branding materials, promotional content, and digital assets using Photoshop and Illustrator while collaborating with clients to deliver strong visual identities.
+                        </p>
+                    </li>
+
+
+                </ol>
+
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skill">
+
+                <h3 class="h3 skills-title">My Skills</h3>
+
+                <ul class="skills-list content-card">
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Video Editing (Montage)</h5>
+                            <data value="90">90%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 90%;"></div>
+                        </div>
+                    </li>
+
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Front-End Development (HTML, CSS, JavaScript)</h5>
+                            <data value="60">60%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Graphic Design</h5>
+                            <data value="85">85%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+
+
+
+
+        <!--
+      - #PORTFOLIO
+    -->
+
+        <article class="portfolio" data-page="my work">
+
+            <header>
+                <h2 class="h2 article-title">Brief Of My Work</h2>
+            </header>
+
+            <section class="projects">
+
+                <ul class="filter-list">
+
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Bassem Magdy</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>مشاري العتيبي</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Amr Mossad</button>
+                    </li>
+
+                </ul>
+
+                <div class="filter-select-box">
+
+                    <button class="filter-select" data-select>
+
+                        <div class="select-value" data-selecct-value>Select category</div>
+
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+
+                    </button>
+
+                    <ul class="select-list">
+
+                        <li class="select-item">
+                            <button data-select-item>All</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>bassem magdy</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>مشاري العتيبي</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Amr Mossad</button>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="project-list">
+                    <li class="project-item  active" data-filter-item data-category="bassem magdy">
+
+                        <figure class="project-img" tabindex="0">
+                            <!-- Vimeo iframe (title/byline/portrait hidden via params) -->
+                            <iframe src="https://player.vimeo.com/video/1128551302?badge=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0"
+                                    allow="autoplay; fullscreen; picture-in-picture; encrypted-media; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen>
+                            </iframe>
+
+                            <!-- overlay icon -->
+                            <div aria-hidden="true">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </div>
+                        </figure>
+
+                        <h3 class="project-title"> Media</h3>
+
+                        <p class="project-category">Hashtag Algorithm</p>
+
+                        <br />
+                        <br />
+                        <figure class="project-img" tabindex="0">
+                            <!-- Vimeo iframe (title/byline/portrait hidden via params) -->
+                            <iframe src="https://player.vimeo.com/video/1128560308?badge=0&amp0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0"
+                                    allow="autoplay; fullscreen; picture-in-picture; encrypted-media; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen>
+                            </iframe>
+                            <!-- overlay icon -->
+                            <div aria-hidden="true">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </div>
+                        </figure>
+
+
+                        <h3 class="project-title"> Media</h3>
+
+                        <p class="project-category">Algorithm Hashtag </p>
+
+
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="amr mossad">
+
+                        <div class="reel-item">
+                            <figure class="reel-video-wrapper" tabindex="0">
+                                <!-- Vimeo iframe (clean embed) -->
+                                <iframe src="https://player.vimeo.com/video/1128554551?badge=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </figure>
+
+                            <div class="reel-info">
+                                <h3 class="reel-title">Media</h3>
+                                <p class="reel-category">Hashtag Algorithm</p>
+                            </div>
+
+                        </div>
+
+                    </li>
+                    <li class="project-item  active" data-filter-item data-category="مشاري العتيبي">
+
+
+                        <div class="reel-item">
+                            <figure class="reel-video-wrapper" tabindex="0">
+                                <!-- Vimeo iframe (clean embed) -->
+                                <iframe src="https://player.vimeo.com/video/1128559873?badge=0&amp=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </figure>
+                            <div class="reel-info">
+                                <h3 class="reel-title">Media</h3>
+                                <p class="reel-category">Hashtag Algorithm</p>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+
+
+
+        <!--
+      - #Services
+    -->
+
+        <article class="blog" data-page="services">
+
+            <header>
+                <h2 class="h2 article-title">Services</h2>
+            </header>
+
+            <section class="blog-posts">
+
+                <ul class="blog-posts-list">
+
+                    <!-- Reel Creation -->
+                    <li class="blog-post-item">
+                        <a href="#">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/services/reel creation.jfif" alt="Reel Creation" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Reel Creation</p>
+
+                                    <span class="dot"></span>
+
+                                    <p class="blog-category">Starting at 1 EGp</p>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Create Eye-Catching Reels</h3>
+
+                                <p class="blog-text">
+                                    Engaging short-form videos for Instagram, TikTok, and YouTube that attract attention and boost your brand presence.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <!-- Videography -->
+                    <li class="blog-post-item">
+                        <a href="#">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/services/videography.jfif" alt="Reel Creation" loading="lazy">
+
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Videography</p>
+
+                                    <span class="dot"></span>
+
+                                    <p class="blog-category">From 1 EGp / session</p>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Professional Video Shooting</h3>
+
+                                <p class="blog-text">
+                                    Cinematic on-location videography for events, ads, and creative campaigns — bringing your vision to life in stunning detail.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <!-- Video Editing -->
+                    <li class="blog-post-item">
+                        <a href="#">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/services/video.jfif" alt="Reel Creation" loading="lazy">
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Video Editing</p>
+
+                                    <span class="dot"></span>
+
+                                    <p class="blog-category">Starting at 1 EGp / video</p>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">High-Quality Video Editing</h3>
+
+                                <p class="blog-text">
+                                    Seamless storytelling with color grading, transitions, and sound design that captivate your audience.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <!-- Content Creation -->
+                    <li class="blog-post-item">
+                        <a href="#">
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/services/content.jfif" alt="Reel Creation" loading="lazy">
+
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p style="font-size:14px" class="blog-category">Content Creation</p>
+                                    
+                                    <span class="dot"></span>
+
+                                    <p style="font-size:14px" class="blog-category">Packages from 1 EGp / month</p>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Full Content Strategy</h3>
+
+                                <p class="blog-text">
+                                    From concept to delivery — custom visuals and videos that align with your brand identity and engage your target audience.
+                                </p>
+
+                            </div>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+
+
+
+        <!--
+      - #CONTACT
+    -->
+
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
