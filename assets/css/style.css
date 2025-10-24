@@ -794,12 +794,19 @@ main {
         opacity: 1;
     }
 
-
+@media only screen and (max-width: 449px)
+{
+    .clients-list {
+        align-items: flex-start;
+        justify-content:flex-start;
+    }
+}
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
-
-.article-title { margin-bottom: 30px; }
+.article-title {
+    margin-bottom: 30px;
+}
 
 
 /**
@@ -968,10 +975,12 @@ main {
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
 .project-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
+    overflow:hidden
 }
 
 .project-item { display: none; }
