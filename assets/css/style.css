@@ -983,7 +983,10 @@ main {
     overflow:hidden
 }
 
-.project-item { display: none; }
+.project-item {
+    display: none;
+    justify-items: center;
+}
 
 .project-item.active {
   display: block;
@@ -1096,11 +1099,22 @@ main {
   object-fit: cover;
   transition: var(--transition-1);
 }
-
-
-.project-title,
-.project-category { margin-left: 10px; }
-
+@media only screen and (max-width: 449px)
+{
+    .project-title, .project-category {
+        text-align: center
+    }
+}
+@media only screen and (max-width: 449px)
+{
+    .project-img {
+       width:90%;
+    }
+}
+.project-title, .project-category {
+    margin-left: 10px;
+    
+}
 .project-title {
   color: var(--white-2);
   font-size: var(--fs-5);
